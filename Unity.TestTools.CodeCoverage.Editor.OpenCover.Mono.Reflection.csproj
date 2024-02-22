@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{91F4988F-9F1E-43A1-6B01-594750371568}</ProjectGuid>
+    <ProjectGuid>{C1DA7846-E63C-3997-DD5B-3A6B55834783}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Unity.VisualScripting.Shared.Editor</AssemblyName>
+    <AssemblyName>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -56,10 +56,13 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Shared/EmptyGraphWindow.cs" />
+    <Compile Include="Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/Editor/CoverageFormats/OpenCover/Mono.Reflection/ByteBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/Editor/CoverageFormats/OpenCover/Mono.Reflection/Instruction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/Editor/CoverageFormats/OpenCover/Mono.Reflection/MethodBodyReader.cs" />
+    <Compile Include="Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/Editor/CoverageFormats/OpenCover/Mono.Reflection/Disassembler.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef" />
+    <None Include="Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/Editor/CoverageFormats/OpenCover/Mono.Reflection/Reflection.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -745,30 +748,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{23398627-FB68-C470-2F50-588447338668}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{DB8EA656-F6F3-C2CD-A1CC-D47F62AB37F9}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{7CD8289F-28C0-6474-055E-B56A281AD361}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{22464193-1F75-6712-A8B3-39F5EB58E886}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{5C802FCC-0FD7-BBFF-1191-812A9F5619D9}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{FB8F470A-1CA1-C58F-95EC-A7C0987D429B}</Project>
-      <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{C2AA9FAA-016F-4058-1BD3-6D4400FB0C45}</Project>
       <Name>UnityEditor.UI</Name>

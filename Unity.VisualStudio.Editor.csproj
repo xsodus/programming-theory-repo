@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{91F4988F-9F1E-43A1-6B01-594750371568}</ProjectGuid>
+    <ProjectGuid>{66A70E7E-A98F-48C1-24AD-00CD78EC5689}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Unity.VisualScripting.Shared.Editor</AssemblyName>
+    <AssemblyName>Unity.VisualStudio.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -56,10 +56,49 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Shared/EmptyGraphWindow.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/ProjectGenerationFlag.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VisualStudioIntegration.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/KnownAssemblies.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/UsageUtility.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestRunnerApiListener.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/ExceptionEventArgs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/UdpSocket.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VisualStudioInstallation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Symbols.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/SolutionProperties.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/SolutionParser.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Messenger.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Serializer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/ProjectProperties.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/FileIOProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestRunnerCallbacks.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestAdaptor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/UnityInstallation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Deserializer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestResultAdaptor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/ProjectGeneration.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/SolutionProjectEntry.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/MessageEventArgs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VisualStudioEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/VersionPair.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Cli.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/FileUtility.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/AssemblyNameProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/MessageType.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProcessRunner.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/TcpListener.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/TcpClient.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Image.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Solution.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/ProjectGeneration/GUIDProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Testing/TestStatusAdaptor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Messaging/Message.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/AsyncOperation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/Discovery.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef" />
+    <None Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.17/Editor/com.unity.ide.visualstudio.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -325,33 +364,6 @@
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.20f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -745,30 +757,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{23398627-FB68-C470-2F50-588447338668}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{DB8EA656-F6F3-C2CD-A1CC-D47F62AB37F9}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{7CD8289F-28C0-6474-055E-B56A281AD361}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{22464193-1F75-6712-A8B3-39F5EB58E886}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{5C802FCC-0FD7-BBFF-1191-812A9F5619D9}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{FB8F470A-1CA1-C58F-95EC-A7C0987D429B}</Project>
-      <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{C2AA9FAA-016F-4058-1BD3-6D4400FB0C45}</Project>
       <Name>UnityEditor.UI</Name>
