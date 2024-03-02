@@ -2,4 +2,7 @@
 Library/
 Logs/
 .vsconfig
-Temp/
+Temp
+.vs
+.vsconfig
+obj
