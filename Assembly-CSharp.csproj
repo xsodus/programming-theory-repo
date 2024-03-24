@@ -57,16 +57,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Characters/Bomber.cs" />
+    <Compile Include="Assets/Scripts/GunnerAnimationReceiver.cs" />
+    <Compile Include="Assets/Scripts/Characters/Swordman.cs" />
     <Compile Include="Assets/Scripts/Characters/Gunner.cs" />
+    <Compile Include="Assets/Scripts/SwordmanAnimationReceiver.cs" />
     <Compile Include="Assets/Inguz Media Studio/Free 2D Impact FX/Demo Scene/DemoManager.cs" />
     <Compile Include="Assets/Inguz Media Studio/Free 2D Impact FX/Script/AnimationHelper.cs" />
     <Compile Include="Assets/Inguz Media Studio/Free 2D Impact FX/Demo Scene/ButtonAnimation.cs" />
     <Compile Include="Assets/Inguz Media Studio/Free 2D Impact FX/Script/SelfDestruct.cs" />
     <Compile Include="Assets/Scripts/UI/UIManager.cs" />
     <Compile Include="Assets/Scripts/Characters/Spaceman.cs" />
-    <Compile Include="Assets/Scripts/GunnerAnimationReceiver.cs" />
-    <Compile Include="Assets/Scripts/SwordmanAnimationReceiver.cs" />
-    <Compile Include="Assets/Scripts/Characters/Swordman.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -718,6 +718,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.InternalAPIEditorBridgeDev.001.csproj">
+      <Project>{C457A4B6-A211-12C4-82C8-6DC457B5A808}</Project>
+      <Name>Unity.InternalAPIEditorBridgeDev.001</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{DB8EA656-F6F3-C2CD-A1CC-D47F62AB37F9}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
@@ -789,6 +793,10 @@
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{AC9413CC-8B63-387E-62BB-E76C467D768A}</Project>
       <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Play.Publisher.Editor.csproj">
+      <Project>{28A9CA16-F06B-E9B2-8FDD-A818625D7A64}</Project>
+      <Name>Unity.Play.Publisher.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{0C7112D5-08E2-81E1-DEEE-D56AE715E1D4}</Project>
